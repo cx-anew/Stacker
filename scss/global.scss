@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+@import 'vars.scss';
+@import 'light_mode.scss';
+html, body{
+    background-color: $background_color;
+    color: $text_color;
+    font-family: $font;
+}
+
+._active_mode{
+    text-decoration: underline;
+}
